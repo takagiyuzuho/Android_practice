@@ -1,0 +1,33 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.co.it_college.androidtraining.fragment.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:id="@+id/textView"/>
+
+        <Button
+            android:id="@+id/third_activity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="196dp"
+            android:text="Go to third Activity" />
+
+        <Button
+            android:id="@+id/second_fragment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/third_activity_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:text="GO TO SECOND ACTIVITY" />
+    </RelativeLayout>
+</layout>
